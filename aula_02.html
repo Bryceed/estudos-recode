@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+
+<body>
+    <h1>Aula 2: Tags de formatação HTML</h1>
+    <hr>
+    <h2>Lista Não-ordenada</h2>
+    <ul>
+        <li>
+            <b>Texto em Negrito</b><br>
+            <strong>Texto em Negrito (para SEO)</strong>
+            <!-- Para destacar ao SEO -->
+        </li>
+        <li>
+            <i>Texto em Itálico</i><br>
+            <em>Texto em Itálico (para SEO)</em>
+        </li>
+        <li>
+            <mark>Texto marcado</mark>
+        </li>
+        <li>
+            <u>Texto sublinhado</u>
+        </li>
+        <li>
+            <s>Texto tachado</s>
+        </li>
+        <li>
+            <small>Texto menor</small>
+        </li>
+        <li>
+            <big>Texto maior</big>
+        </li>
+        <li>
+            Texto <sup>sobrescrito</sup>
+        </li>
+        <li>
+            Texto <sub>subscrito</sub>
+        </li>
+        <li>
+            <code>Código monoespaçado <3</code><br>
+            <i>Todas as letras com mesmo tamanho</i>
+        </li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2>Tabela</h2>
+    <table border="fixed">
+        <!--Table row, linha da tabela-->
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Fulano</td>
+            <td>(11) 98765-4321</td>
+            <td>fulanofrifas1986@mail.com</td>
+        </tr>
+        <tr>
+            <td>Sicrana</td>
+            <td>(21) 91827-3645</td>
+            <td>sicrana.htinha@highmail.com</td>
+        </tr>
+        <tr>
+            <td>Deltrano</td>
+            <td>(36) 91234-5678</td>
+            <td>ajfdaipowjhglkad@yuhuu.com</td>
+        </tr>
+    </table>
+    <h2>Formulário</h2>
+    <form action="#" method="get">
+        <input type="text" name="name" id="" placeholder="Digite um texto">
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <hr>
+    <h2><u>Exercícios</u></h2>
+    <h3>Exercício #1</h3>
+    <form action="#" method="get">
+        <input type="text" name="text" id="" placeholder="Login" required>
+        <input type="password" name="password" id="" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <br><br>
+
+    <hr>
+    <p style="">
+        <a href="" style="text-decoration: none;float: left;right: 0;">◂ <small>Voltar</small></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="text-decoration: none; float: right;right: 0;"><small>Avançar</small> ▸</a>
+    </p>
+    <hr>
+    <div style="margin-top: 24px;">
+        <center>
+            <small><b style="color:orange;">Profº Eduardo Correia</small>
+            <div class="recode" width="64px" height="23px"></div>
+        </center>
+    </div>
+</body>
+
+<style>
+    body {
+        margin: 2rem auto;
+        max-width: 540px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    hr {
+        border-top-color: thin dashed rgba(30, 30, 30, .04);
+    }
+    
+    .recode {
+        width: 64px;
+        height: 23px;
+        margin: 12px auto 0;
+        background-image: url("data:image/png;base64,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")
+    }
+</style>
+
+</html>
